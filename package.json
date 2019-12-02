@@ -1,0 +1,26 @@
+{
+  "name": "learn-js-ast",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaobaifeng/learn-js-AST.git"
+  },
+  "keywords": [
+    "[]\u001b[D\"\"\u001b[DAST\"",
+    "\"\"\u001b[Djs-AST\"]"
+  ],
+  "author": "xiaobaifeng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiaobaifeng/learn-js-AST/issues"
+  },
+  "homepage": "https://github.com/xiaobaifeng/learn-js-AST#readme",
+  "dependencies": {
+    "recast": "^0.18.5"
+  }
+}
