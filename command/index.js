@@ -40,8 +40,9 @@ var argv = require('yargs')
   }, function (argv) {
     console.log('exportific %s , rewrite is %s', argv.file || argv._[1], !!argv.cover)
     const filename = argv.file || argv._[1]
-    exec('node ./exportific-rewrite.js ' + filename)
-    // writeFile(filename, !!argv.cover)
+    // 这是一个使用 exec(执行 shelljs)的例子
+    // exec('node ./exportific-rewrite.js ' + filename)
+    writeFile(filename, !!argv.cover)
   })
   .example('$0 exportific foo.js', 'exportific the given file')
   .help('h')
