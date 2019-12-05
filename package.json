@@ -1,8 +1,11 @@
 {
   "name": "learn-js-ast",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "改写源码中的函数为可exports.XXX形式",
+  "main": "main.js",
+  "bin": {
+    "cwb": "./command/index.js"
+  },
   "scripts": {
     "test": "test"
   },
@@ -21,6 +24,9 @@
   },
   "homepage": "https://github.com/xiaobaifeng/learn-js-AST#readme",
   "dependencies": {
-    "recast": "^0.18.5"
+    "fs": "0.0.1-security",
+    "recast": "^0.18.5",
+    "shelljs": "^0.8.3",
+    "yargs": "^15.0.2"
   }
 }
