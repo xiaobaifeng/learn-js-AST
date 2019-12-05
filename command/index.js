@@ -9,12 +9,7 @@ const writeFile = require('../exportific')
 
 var argv = require('yargs')
   .usage('Usage: $0 <command> [options]')
-  .command('get', 'make a get HTTP request', {
-    url: {
-      alias: 'u',
-      default: 'http://yargs.js.org/'
-    }
-  }, function (argv) {
+  .command('get <url>', 'make a get HTTP request', {}, function (argv) {
     console.log('request url: %s', argv.url)
   })
   .example('$0 get www.baidu.com', '请求api-url')
