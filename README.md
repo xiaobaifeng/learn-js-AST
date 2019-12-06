@@ -10,8 +10,8 @@ It is a hierarchical program representation that presents source code structure 
 
 ## 学习资料
 
-[AST抽象语法树](https://segmentfault.com/a/1190000016231512?utm_source=tag-newest#articleHeader0)
-[编程语言的实现，从AST（抽象语法树）开始](https://baijiahao.baidu.com/s?id=1626159656211187310&wfr=spider&for=pc)
+- [AST抽象语法树](https://segmentfault.com/a/1190000016231512?utm_source=tag-newest#articleHeader0)
+- [编程语言的实现，从AST（抽象语法树）开始](https://baijiahao.baidu.com/s?id=1626159656211187310&wfr=spider&for=pc)
 
 ## 安装
 
