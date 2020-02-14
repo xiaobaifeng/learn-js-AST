@@ -8,6 +8,7 @@ const { countLine } = require('../countLine')
 const writeFile = require('../exportific')
 
 var argv = require('yargs')
+  .scriptName('cwb')
   .usage('Usage: $0 <command> [options]')
   .command('get <url>', 'make a get HTTP request', {}, function (argv) {
     console.log('request url: %s', argv.url)
