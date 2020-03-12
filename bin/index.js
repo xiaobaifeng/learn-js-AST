@@ -38,10 +38,6 @@ var argv = require("yargs")
     "exportific a file",
     function(yargs) {
       return yargs
-        .option("f", {
-          alias: "file",
-          describe: "Load a file"
-        })
         .boolean(["cover"])
         .help("h")
         .alias("h", "help");
@@ -59,6 +55,7 @@ var argv = require("yargs")
     }
   )
   .example("$0 exportific foo.js", "exportific the given file")
+  .example("$0 exportific --cover foo.js", "cover exportific the given file")
   .help("h")
   .alias("h", "help")
   .alias("V", "version")
