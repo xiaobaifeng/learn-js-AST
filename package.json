@@ -1,7 +1,7 @@
 {
   "name": "learn-js-ast",
   "version": "1.0.0",
-  "description": "改写源码中的函数为可exports.XXX形式",
+  "description": "wb 脚手架",
   "main": "main.js",
   "bin": {
     "wb": "./bin/index.js"
