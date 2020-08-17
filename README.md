@@ -28,3 +28,22 @@ It is a hierarchical program representation that presents source code structure 
 ```
 
 `wb exportific -f demo.js` 把 function() {} 批量变成 () => {}
+
+## 目录
+
+```
+D:\my-apps\learn-js-AST
+├─main.js
+├─package-lock.json
+├─package.json
+├─README.md
+├─lib
+|  ├─command
+|  |    ├─countLine.js
+|  |    ├─exportific
+|  |    |     ├─index.js
+|  |    |     └README.md
+├─bin
+|  └index.js
+
+```
