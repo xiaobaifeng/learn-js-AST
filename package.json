@@ -7,13 +7,16 @@
     "wb": "./bin/index.js"
   },
   "scripts": {
-    "test": "test"
+    "test": "wb"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/xiaobaifeng/learn-js-AST.git"
   },
-  "keywords": ["[]\u001b[D\"\"\u001b[DAST\"", "\"\"\u001b[Djs-AST\"]"],
+  "keywords": [
+    "[]\u001b[D\"\"\u001b[DAST\"",
+    "\"\"\u001b[Djs-AST\"]"
+  ],
   "author": "xiaobaifeng",
   "license": "ISC",
   "bugs": {
