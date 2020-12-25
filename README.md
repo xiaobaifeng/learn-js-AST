@@ -25,6 +25,7 @@ It is a hierarchical program representation that presents source code structure 
 ```
   npm link
   wb -h
+  可以通过 npm run test -- **(eg: count -f demo.js) 向test键值对应的指令传值
 ```
 
 `wb exportific -f demo.js` 把 function() {} 批量变成 () => {}
