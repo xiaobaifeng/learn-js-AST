@@ -7,7 +7,7 @@
     "wb": "./bin/index.js"
   },
   "scripts": {
-    "test": "wb"
+    "test": "wb -h"
   },
   "repository": {
     "type": "git",
